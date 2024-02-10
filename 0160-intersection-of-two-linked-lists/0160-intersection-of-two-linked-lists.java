@@ -11,7 +11,6 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        
         int lenA = 0;
         ListNode tempA = headA;
         while(tempA != null){
@@ -26,7 +25,7 @@ public class Solution {
         }
        
         int delta = Math.abs(lenA - lenB);
-         tempA = headA;
+        tempA = headA;
         tempB = headB;
         if(lenA  > lenB ){
             for(int i = 0; i<delta ; i++){
