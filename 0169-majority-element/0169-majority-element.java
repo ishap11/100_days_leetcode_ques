@@ -43,7 +43,7 @@ class Solution {
         */
 
 
-        // OPTIMISED APPROSCH =>MOORE VOTING ALGO TC- O(N) SC - O(1)
+        // OPTIMISED APPROSCH =>MOORE's VOTING ALGO TC- O(N) SC - O(1)
 
         int val = nums[0];
         int count =1;
