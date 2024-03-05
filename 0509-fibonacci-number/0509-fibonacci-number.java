@@ -7,12 +7,9 @@ class Solution {
            return 1;
        }
 
-           
-        
        int n1=0;
        int n2=1;
        int fib=1;
-        
         
         for(int i=1;i<n;i++)
         {
