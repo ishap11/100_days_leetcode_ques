@@ -21,7 +21,7 @@ class Solution {
             sum = sum + nums[i]; //calculate sum
 
             ans = Math.max(ans ,sum); 
-            //max sum me se ans me se kya h vo stre krrhe h 
+            //max sum me se ans me se kya h vo store krrhe h 
             if(sum <0){  //check agr element -ve h toh consider hi ni krna
                 sum=0;
             }
