@@ -1,8 +1,8 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-       // TC:O(Nlogn + N)
+        // TC:O(Nlogn + N)
         // Rsn: NlogN for sorting the array and O(N) for traversing through the array  and checking if adjacent elements are equal or not. But this will distort the array.
-    // SC - O(1)
+        // SC - O(1)
         // Arrays.sort(nums);
         // for(int i = 0 ; i< nums.length ; i++){
         //     if(nums[i] == nums[i+1]){
