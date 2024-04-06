@@ -21,11 +21,6 @@ class Solution {
                 }
             }
         }
-        while(pq.size() > 0){
-            return pq.remove();
-        }
-        return k;
-
-       
+       return pq.remove();
     }
 }
